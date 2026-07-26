@@ -1,6 +1,6 @@
 # Privacy Policy — Dash Launcher
 
-**Last updated: June 2026**
+**Last updated: July 2026**
 
 ---
 
@@ -34,11 +34,14 @@ Used to provide haptic feedback when a gesture is recognised. No data is involve
 ### `REQUEST_DELETE_PACKAGES`
 Allows the launcher to initiate app uninstallation when triggered by the user. The launcher does not uninstall apps automatically — it only forwards the request to Android's standard uninstaller when you explicitly choose to remove an app.
 
+### `READ_CALENDAR`
+Used to optionally display upcoming calendar events on the home screen, so you can see your schedule at a glance alongside app suggestions. This permission is entirely optional — the app functions fully without it. Calendar data is read locally on your device only and is never stored, transmitted, or shared externally. You will only be prompted for this permission if you choose to enable the calendar view feature in settings. You can continue using Dash Launcher in blank mode or app suggestions mode without granting this permission.
+
 ---
 
 ## On-Device Storage
 
-Any configuration you save — such as gesture-to-app mappings or display preferences — is stored locally on your device using Android's standard storage APIs. This data never leaves your device and is removed when you uninstall the app.
+Any configuration you save — such as gesture-to-app mappings, display preferences, or feature settings — is stored locally on your device using Android's standard storage APIs. This data never leaves your device and is removed when you uninstall the app.
 
 ---
 
