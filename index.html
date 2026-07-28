@@ -590,6 +590,24 @@
 
   .faq-item p { color: var(--muted); margin-top: 0.7rem; font-size: 0.95rem; }
 
+  /* ======================= FEEDBACK ======================= */
+  .feedback-box {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    background: var(--card);
+    border: 2px solid var(--ink);
+    border-radius: 24px;
+    padding: 3rem 2rem;
+    box-shadow: 10px 10px 0 var(--accent-soft);
+  }
+
+  .feedback-box h2 { font-size: clamp(1.7rem, 3.4vw, 2.3rem); margin-bottom: 0.8rem; }
+
+  .feedback-box p { color: var(--muted); margin-bottom: 2rem; }
+
+  .feedback-cta { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
   /* ======================= DOWNLOAD ======================= */
   .download-box {
     max-width: 620px;
@@ -698,6 +716,7 @@
     <a href="#gestures">Gestures</a>
     <a href="#themes">Themes</a>
     <a href="#faq">FAQ</a>
+    <a href="#feedback">Feedback</a>
   </nav>
   <a class="btn btn-primary btn-sm" href="https://play.google.com/store/apps/details?id=dev.soraatelier.dashLauncher" target="_blank" rel="noopener">Get it on Play Store</a>
 </header>
@@ -899,6 +918,19 @@
     </div>
   </section>
 
+  <!-- ======================= FEEDBACK ======================= -->
+  <section class="section" id="feedback">
+    <div class="feedback-box reveal">
+      <span class="eyebrow">Feedback</span>
+      <h2>Got an idea? Found a bug?</h2>
+      <p>Dash is a solo project, built from what people actually ask for. Tell me what's missing, broken, or what you'd love to see next.</p>
+      <div class="feedback-cta">
+        <a class="btn btn-primary" href="https://github.com/notadevsingh/dash-launcher/issues/new?template=feature_request.md" target="_blank" rel="noopener">Request a feature</a>
+        <a class="btn btn-ghost" href="https://github.com/notadevsingh/dash-launcher/issues/new?template=bug_report.md" target="_blank" rel="noopener">Report a bug</a>
+      </div>
+    </div>
+  </section>
+
   <!-- ======================= DOWNLOAD ======================= -->
   <section class="section" id="download">
     <div class="download-box reveal">
@@ -917,6 +949,7 @@
 <footer>
   <div class="footer-inner">
     <span>© 2026 Dash Launcher</span>
+    <a href="https://github.com/notadevsingh/dash-launcher/issues" target="_blank" rel="noopener">Feedback &amp; Issues</a>
     <a href="https://play.google.com/store/apps/details?id=dev.soraatelier.dashLauncher" target="_blank" rel="noopener">Google Play Store</a>
   </div>
 </footer>
