@@ -65,6 +65,8 @@ Copyright (c) 2026 Sora Atelier. All rights reserved.
 The Dash Launcher app is distributed in binary form only. No source code is provided or licensed. See [LICENSE](./LICENSE) for the full notice.
 
 ---
+##### The GitHub APK and the Play Store APK use different signing keys and cannot be used to update each other.
+---
 
 <!--
 ## Screenshots
