@@ -7,6 +7,14 @@ All notable changes to Dash Launcher are documented here.
 > Download the latest APK from the [Releases](../../releases) page or install from [Google Play](https://play.google.com/store/apps/details?id=dev.soraatelier.dashlauncher).
 
 ---
+## [2.0.1] — Latest
+
+### 🐛 Bug fixes & Improvements
+
+- **Handwriting auto-launch reliability** — fixed an issue where writing multi-stroke letters (like "i" or "j") could prematurely launch an app before you finished dotting the letter.
+- **Accidental scribble dismissal guard** — small accidental taps or brief finger movements on the home screen no longer dismiss your active search query.
+
+---
 
 ## [2.0.0] — Latest
 
