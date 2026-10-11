@@ -7,7 +7,31 @@ All notable changes to Dash Launcher are documented here.
 > Download the latest APK from the [Releases](../../releases) page or install from [Google Play](https://play.google.com/store/apps/details?id=dev.soraatelier.dashlauncher).
 
 ---
-## [2.0.1] — Latest
+
+## [2.1.0] — Latest
+
+### ✨ Redesigned Onboarding Experience
+
+- **Structured 5-step guided setup** — Replaced the floating tutorial overlay with a calm, step-by-step setup wizard inspired by OpenMiniLaunch:
+  - **Scribble & gestures** — Clear, uncluttered introduction to on-screen handwriting search, stroke filtering, swipe-to-erase, and app drawer navigation.
+  - **Style & accessibility typography** — Choose your starting home layout style (*Minimalist Text*, *Classic Agenda*, or *Doodle Pop Ink*) and select your preferred reading typeface (*Default*, *Monolexic* dyslexia-friendly, or *Monolegible* high-contrast) with live preview.
+  - **Smart dock options** — 1-tap **Default Essentials** (auto-detects and pins your system Phone, Messages, Browser, and Camera), **Custom Favorites** (search and handpick any 4 apps), or **Hide Dock** for a pure edge-to-edge minimalist screen.
+  - **Skip guidance** — Tapping Skip provides an intuitive choice to apply default essentials, hide the dock, or continue.
+  - **Transparent privacy & permissions** — Honest, upfront context explaining how Usage Access and Calendar Smart Join work strictly on-device without telemetry or cloud syncing.
+  - **Smooth default launcher handoff** — Simple instructions and one-tap setup to set Dash Launcher as your default home app.
+- **Hardware back gesture support** — Navigate backwards through setup steps naturally using your device's back gesture.
+
+### ✨ New features & Accessibility
+
+- **High-legibility & dyslexia-friendly font options** — Added a new **Font style** selector under Settings → Accessibility:
+  - **Monolexic** — A dyslexia-friendly typeface with disambiguated letterforms inspired by Atkinson Hyperlegible principles (distinct stems, hooked letters, tailed stems, and clear zero/one shapes) to prevent mirror confusion and improve scanning comfort.
+  - **Monolegible** — A structured, high-contrast typeface with expanded letter spacing for low-vision reading.
+  - Seamlessly integrates with the existing **Bold text** toggle and scales consistently across the home screen, app drawer, and clock.
+- **Typography credits** — Added attribution and a link to the typography colophon in Settings → About, honoring Steven Hum (`sdothum`) for the custom Iosevka builds.
+
+---
+
+## [2.0.1]
 
 ### 🐛 Bug fixes & Improvements
 
@@ -16,7 +40,7 @@ All notable changes to Dash Launcher are documented here.
 
 ---
 
-## [2.0.0] — Latest
+## [2.0.0]
 
 ### ✨ New features
 
